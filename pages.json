@@ -1,0 +1,221 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+        ,{
+            "path" : "pages/user/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#3d7eff"
+            }
+            
+        }
+		
+		
+		
+		// ,{
+		//     "path" : "pages/order/order_partner_zjfq",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "家装分期",
+		//         "enablePullDownRefresh": false
+		//     }
+		    
+		// }
+		// ,{
+		//     "path" : "pages/order/order_partner_fqt",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "分期通",
+		//         "enablePullDownRefresh": false
+		//     }
+		    
+		// }
+		
+        ,{
+            "path" : "pages/order/order_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/order/order_info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		
+		
+		
+		
+		
+		,{
+		    "path" : "pages/order/order_partner_zx",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/order/order_partner_jzfq",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "家装分期",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/order/order_partner_fqt1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分期通",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+
+
+
+
+
+
+
+
+
+        ,{
+            "path" : "pages/site/facility",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收益明细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/site/parking_log_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收益明细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/site/parking_log",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "收益明细",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        ,{
+            "path" : "pages/simple/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人设置",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#3d7eff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+        ,{
+            "path" : "pages/user/mobile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "实力合伙人",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#527bff",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/coolc/icon/home.png",
+				"selectedIconPath": "static/coolc/icon/home_select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/coolc/icon/user.png",
+				"selectedIconPath": "static/coolc/icon/user_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
